@@ -289,6 +289,13 @@ footer {
     padding-left: 25px;
 
 }
+
+.wide>.center>.entry img, .wide>.center>.entry video {
+max-width: 100%;
+height: auto;
+border: none;
+}
+
 .wide:nth-child(2n+1)>.center>.head>.timeLine>.date {
     background: #f1f1f1;
 }
